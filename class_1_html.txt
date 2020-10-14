@@ -1,0 +1,64 @@
+HTML:-
+
+1.Hyper Text Markup language.
+
+2.Every web application should contain HTML.That is HTML is mandatory technology for web development."It's represents structure of webpage."
+
+
+<>----tags
+tags are two types
+1.starting tags-------- <    >
+2.Ending   tags-------- </   >
+
+In the HTML when a tag is starting it's complosory to end by ebdingtag,but some exception are available in the html like <a> <img> etc. 
+
+Note:- html file contains are starts <html> and all the comtains are ending </html> tags.
+
+
+1. <!DOCTYPE html>:-
+Developer should declare html file is now starting from yet.
+
+2.<html>:-
+
+The <html> element is the root element of an HTML page,means every contains of front end developement are under the starting html to ending html.
+
+3.<head>:-
+The <head> element contains meta information about the HTML page. and it's also contain <title> tag
+ 
+ 	a.<title>:-
+
+ 		The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+
+
+ 4.<body>:-
+
+ 		The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+
+
+ 5.<h1>:
+ 	The <h1> element defines a large heading,but heading tags are 6 type       <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+
+
+ 6.<p>
+ 	 The <p> element defines a paragraph.
+
+7.<br>----break the line
+
+HTML links:-
+<a>
+
+<a href="https://www.w3schools.com">This is a link</a>
+
+
+HTML Images:-
+
+HTML images are defined with the <img> tag.
+
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+
+ex:-
+
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+
+

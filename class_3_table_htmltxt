@@ -1,0 +1,65 @@
+HTML table:-
+
+1.we can make table for html that's used in web pages help of <table> tags.
+2.Each table row is defined with a <tr> tag.
+3.Each table header is defined with a <th> tag
+4.Each table data/cell is defined with a <td> tag.
+
+ex:-
+
+<table style="width:100%">
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Marks</th>
+		<th>Section</th>
+	</tr>
+
+	<tr>
+		<td>Subham</td>
+		<td>25</td>
+		<td>480</td>
+		<td>A</td>
+	</tr>
+
+	<tr>
+		<td>Satya</td>
+		<td>27</td>
+		<td>510</td>
+		<td>A</td>
+	</tr>
+
+	<tr>
+		<td>Shri</td>
+		<td>25</td>
+		<td>490</td>
+		<td>A</td>
+	</tr>
+
+	<tr>
+		<td>Vikash</td>
+		<td>28</td>
+		<td>532</td>
+		<td>B</td>
+	</tr>
+
+	<tr>
+		<td>Wrushali</td>
+		<td>21</td>
+		<td>486</td>
+		<td>B</td>
+	</tr>
+
+</table>
+
+Note:- we use padding for table line:- using <style> under the <head>
+
+ex:-
+<head>
+	<title>Table</title>
+<style> 
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+

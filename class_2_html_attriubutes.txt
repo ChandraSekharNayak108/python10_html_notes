@@ -1,0 +1,95 @@
+HTML attriubutes:-
+
+	All HTML elements can have attributes
+	Attributes provide additional information about elements
+	Attributes are always specified in the start tag
+	Attributes usually come in name/value pairs like: name="value"
+
+	syntax of attributes:- name_of_atr = "additional_info"
+
+1.The href Attribute:-
+
+	The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+
+	ex:-<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+
+2.The src,alt,width,hight Attribute:-
+
+		a.src:-
+		The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+
+		b.width and height:-
+		b.The <img> tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels):
+
+		note:-(exception)-width and hight both are userd  out side the <img> tag.
+
+		c.alt:-
+		The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader.
+
+		ex:- <img src="/home/krishna/Pictures/Wallpapers/bahu.jpeg" alt="Chatni leke jaega" width="1000" height="1000">
+
+
+
+
+4.The style Attribute:-
+
+		The style attribute is used to add styles to an element, such as color, font, size, and more.
+
+		<p style="color:red;">This is a red paragraph.</p>
+
+Note:- style attrubutes never ends, and we add multiple style in the attribute,all the methods are divided bt ';',style tags also use any department of html.
+
+
+5.The lang Attribute:(option)
+
+You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+
+ex:-
+<html lang="en">
+
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+
+usa:-   <html lang="en-us">
+india:- <html lang="en-ind">
+
+
+Chapter Summary:-
+
+1.All HTML elements can have attributes
+2.The href attribute of <a> specifies the URL of the page the link goes to
+3.The src attribute of <img> specifies the path to the image to be displayed
+4.The width and height attributes of <img> provide size information for images
+5.The alt attribute of <img> provides an alternate text for an image
+6.The style attribute is used to add styles to an element, such as color, 
+  font, size, and more
+7.The lang attribute of the <html> tag declares the language of the Web page
+
+
+
+
+HTML Paragraphs:-
+
+	The HTML <p> element defines a paragraph.
+
+	Notes:-you cannot change the display by adding extra spaces or extra lines in your HTML code.
+
+	wrong method:-
+
+	<p>
+	This paragraph
+	contains         a lot of spaces
+	in the source         code,
+	but the        browser
+	ignores it.
+	</p>
+
+
+result:-This paragraph contains a lot of spaces in the source code, but the browser ignores it.
+
+ 		The HTML <pre> Element:-
+
+ 		The HTML <pre> element defines preformatted text.
+
+		The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+

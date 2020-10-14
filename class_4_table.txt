@@ -1,0 +1,237 @@
+HTML table:-
+
+1.we can make table for html that's used in web pages help of <table> tags.
+2.Each table row is defined with a <tr> tag.
+3.Each table header is defined with a <th> tag
+4.Each table data/cell is defined with a <td> tag.
+
+ex:-
+
+<table style="width:100%">
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Marks</th>
+		<th>Section</th>
+	</tr>
+
+	<tr>
+		<td>Subham</td>
+		<td>25</td>
+		<td>480</td>
+		<td>A</td>
+	</tr>
+
+	<tr>
+		<td>Satya</td>
+		<td>27</td>
+		<td>510</td>
+		<td>A</td>
+	</tr>
+
+	<tr>
+		<td>Shri</td>
+		<td>25</td>
+		<td>490</td>
+		<td>A</td>
+	</tr>
+
+	<tr>
+		<td>Vikash</td>
+		<td>28</td>
+		<td>532</td>
+		<td>B</td>
+	</tr>
+
+	<tr>
+		<td>Wrushali</td>
+		<td>21</td>
+		<td>486</td>
+		<td>B</td>
+	</tr>
+
+</table>
+
+Note:- we use padding for table line:- using <style> under the <head>
+
+ex:-
+<head>
+	<title>Table</title>
+<style> 
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+
+
+padding:-<style> related thing using reaptedly in the table or other areas like heading,paragraph etc. so that we can use padding in the <head> tag to compress the code and we will not use same code reaptedly.
+
+<head>
+	<title>Table</title>
+<style> 
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head
+
+
+Note:- if specify every each table nad row or column in padding then set id in the table or th or td tags.
+
+	<style>
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+		
+#t1{width:100%;}
+#t2{width:75%;background-color: #f1f1c1;}
+#t1-tr_01{background-color: #f1f1c1;}
+#t2-tr_01{background-color: #79b447;}
+
+	</style>
+
+
+
+
+
+Chapter Summary
+Use the HTML <table> element to define a table
+Use the HTML <tr> element to define a table row
+Use the HTML <td> element to define a table data
+Use the HTML <th> element to define a table heading
+Use the HTML <caption> element to define a table caption
+Use the CSS border property to define a border
+Use the CSS border-collapse property to collapse cell borders
+Use the CSS padding property to add padding to cells
+Use the CSS text-align property to align cell text
+Use the CSS border-spacing property to set the spacing between cells
+Use the colspan attribute to make a cell span many columns
+Use the rowspan attribute to make a cell span many rows
+Use the id attribute to uniquely define one table
+
+
+complete multi table code :-
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proxt Table</title>
+	
+	<style>
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+		
+#t1{width:100%;}
+#t2{width:75%;background-color: #f1f1c1;}
+#t1-tr_01{background-color: #f1f1c1;}
+#t2-tr_01{background-color: #79b447;}
+
+	</style>
+
+
+
+
+</head>
+<body style="background-color:#92ab00">
+
+
+		<h1>Exam Results</h1>
+		<p>Table below shows the result of year 2020</p>
+
+		<table id="t1">
+
+			<tr id="t1-tr_01">
+				<th>Name</th>
+				<th>Age</th>
+				<th>Marks</th>
+				<th>Department</th>
+			</tr>
+
+			<tr>
+			<td>Subham</td>
+			<td>25</td>
+			<td>480</td>
+			<td>A</td>
+		</tr>
+
+		<tr>
+			<td>Satya</td>
+			<td>27</td>
+			<td>510</td>
+			<td>A</td>
+		</tr>
+
+		<tr>
+			<td>Shri</td>
+			<td>25</td>
+			<td>490</td>
+			<td>A</td>
+		</tr>
+
+		<tr>
+			<td>Vikash</td>
+			<td>28</td>
+			<td>532</td>
+			<td>B</td>
+		</tr>
+
+		<tr>
+			<td>Wrushali</td>
+			<td>21</td>
+			<td>486</td>
+			<td>B</td>
+		</tr>
+
+		</table>
+	
+
+
+		<h1>State population</h1>
+		<p>Population of the State are show in below as per city wise.</p>
+
+
+		<table id="t2">
+		
+
+			<tr id="t2-tr_01">
+				<th>State</th>
+				<th>City</th>
+				<th>Populatiom</th>
+			</tr>
+
+			<tr>
+				<td>Maharastra</td>
+				<td>Pune</td>
+				<td>80L</td>
+				
+			</tr>
+
+			<tr>
+				<td>Odisha</td>
+				<td>Bhubaneswar</td>
+				<td>50L</td>
+			
+			</tr>
+
+			<tr>
+				<td>Telegana</td>
+				<td>Hydrabaad</td>
+				<td>85L</td>
+				
+			</tr>
+
+			<tr>
+				<td>Andrapradesh</td>
+				<td>Vijaywada</td>
+				<td>43L</td>
+			</tr>
+
+
+		</table>
+
+</body>
+</html>
